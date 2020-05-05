@@ -7,22 +7,19 @@
 
 ECG heartbeat signals are time series data (187 signals per heartbeat in the given data)
 
-![alt text](https://github.com/atabas/Heartbeat-Classification/blob/master/data_example.png "GAF and RP")
+![alt text](https://github.com/atabas/Heartbeat-Classification/blob/master/Screenshots/example_images.png "GAF, RP, MTF")
 
-### Gramian Angular Field (GAF)
-- Image obtained from a time series representing the temporal correlation between each time point. 
-- Normalize time series (n points) to [-1, 1]
-- Construct (n x n) matrix by taking dot product of every 2 elements
-- Project these to a 2D space to obtain an angular distance measurement between every 2 points. Details here: https://medium.com/analytics-vidhya/encoding-time-series-as-images-b043becbdbf3 
+Approaches:
+- Gramian Angular Field (GAF)
+- Recurrence Plot (RP)
+- Markov Transition Field (MTF)
+- Intermediate fusion
 
-### Recurrence Plot
-Based on the recurrent behaviour of time series.
-In our case, it is implemented by:
-- Taking pairwise euclidean distances of the n time points, giving us an (n x n) matrix
-- Clipping the max distance by some max threshold (10)
-- Normalizing the values in [-1,1]
 
-![alt text](https://github.com/atabas/Heartbeat-Classification/blob/master/architecture.png "Network Architecture")
+![alt text](https://github.com/atabas/Heartbeat-Classification/blob/master/Screenshots/GAF+RP.png "GAF+RP")
+![alt text](https://github.com/atabas/Heartbeat-Classification/blob/master/Screenshots/Fusion.png "Intermediate Fusion")
+![alt text](https://github.com/atabas/Heartbeat-Classification/blob/master/Screenshots/GAF+RP+MTF.png "GAF+RP+MTF")
+
 
 ![alt text](https://github.com/atabas/Heartbeat-Classification/blob/master/results_mit-bih.png "Results for MIT BIH")
 ![alt text](https://github.com/atabas/Heartbeat-Classification/blob/master/results_ptb.png "Results for PTB")
