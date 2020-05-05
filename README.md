@@ -21,7 +21,7 @@ Approaches:
 ![alt text](https://github.com/atabas/Heartbeat-Classification/blob/master/Screenshots/GAF+RP+MTF.png "GAF+RP+MTF")
 
 
-![alt text](https://github.com/atabas/Heartbeat-Classification/blob/master/results_mit-bih.png "Results for MIT BIH")
-![alt text](https://github.com/atabas/Heartbeat-Classification/blob/master/results_ptb.png "Results for PTB")
+![alt text](https://github.com/atabas/Heartbeat-Classification/blob/master/Screenshots/results_mit_bih.png "Results for MIT BIH")
+![alt text](https://github.com/atabas/Heartbeat-Classification/blob/master/Screenshots/results_ptb.png "Results for PTB")
 
 
