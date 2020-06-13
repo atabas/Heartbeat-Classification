@@ -1,6 +1,9 @@
 # Heartbeat Classification
 ## Classify ECG heartbeat signals into predefined categories based on heartbeat abnormality by transforming time series to images
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ecg-heartbeat-classification-a-deep/myocardial-infarction-detection-on-ptb)](https://paperswithcode.com/sota/myocardial-infarction-detection-on-ptb?p=ecg-heartbeat-classification-a-deep)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ecg-heartbeat-classification-a-deep/arrhythmia-detection-on-mit-bih-ar)](https://paperswithcode.com/sota/arrhythmia-detection-on-mit-bih-ar?p=ecg-heartbeat-classification-a-deep)
+
 ### Datasets:
 - MIT-BIH Dataset (https://www.physionet.org/content/mitdb/1.0.0/): contains 5 categories: N, S, V, F, Q (see https://arxiv.org/pdf/1805.00794.pdf for details), 87k train records, 21k test records
 - PTB Dataset (https://www.physionet.org/content/ptbdb/1.0.0/): contains 2 categories: Normal and Abnormal, 14k records
